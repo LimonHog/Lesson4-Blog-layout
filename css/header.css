@@ -70,7 +70,7 @@
 }
 
 .header__select-body{
-  display: inline-block;
+  width: max-content;
   opacity: 0;
   visibility: hidden;
   height: 0;
@@ -81,8 +81,8 @@
   text-decoration: none;
   color: black;
   outline-style: none;
-  /* display: flex;
-  align-items: center; */
+  display: flex;
+  align-items: center;
   transition: opacity 0.5s ease-in-out;
 }
 
