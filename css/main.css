@@ -62,7 +62,7 @@
 
 .main__card-date::before, .main__card-date::after{
   content: "";
-  color: #D7D7D7;
+  background-color: #D7D7D7;
   height: 0.1875rem;
   width: 0.1875rem;
   border-radius: 50%;
