@@ -61,7 +61,7 @@
 }
 
 .main__card-date::before, .main__card-date::after{
-  content: none;
+  content: "";
   color: #D7D7D7;
   height: 0.1875rem;
   width: 0.1875rem;
