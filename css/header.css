@@ -158,3 +158,23 @@
   }
 }
 
+@media (max-width: 320px) {
+  .header{
+    position: relative;
+  }
+
+  .header__search{
+    transform: translateY(0);
+  }
+
+  .header__bottom{
+    display: none;
+  }
+
+  .header__bottom_mobile{
+    font-weight: 500;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    padding: 0 1.7rem;
+  }
+}
