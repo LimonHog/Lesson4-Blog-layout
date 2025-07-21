@@ -197,4 +197,27 @@
   .header__link{
     margin-top: 0.89rem;
   }
+
+  .header__mobile{
+    padding: 1.61rem 0 0 0;
+    height: 100vh;
+    width: 17.8rem;
+    border: solid 0.05rem #E9E9E9;
+    position: absolute;
+    transition: 0.8s ease-in-out;
+    z-index: 100;
+    background-color: white;
+  }
+
+  .header__mobile-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 1.6rem 1.67rem;
+    border: solid 0.05rem #E9E9E9;
+  }
+
+  .header__logo{
+    
+  }
 }
