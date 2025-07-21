@@ -102,3 +102,27 @@
 .header__select-icon-img{
   transform: translate(0,-25%);
 }
+
+@media (max-width: 1024px) {
+  .header{ 
+     position: sticky;
+     top: 0;
+     transition: 0.5s ease-in-out;
+  }
+  .header__mobile, .header__mobile{
+    display: none;
+  }
+  .header__top{
+    position: relative;
+    justify-content: center;
+  }
+  .header__top_right{
+    right: 5rem;
+  }
+  .header__bottom{
+    display: flex;
+  }
+  .header__link{
+    margin-top: 0;
+  }
+}
