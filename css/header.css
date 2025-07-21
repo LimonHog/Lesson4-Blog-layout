@@ -177,4 +177,24 @@
     box-sizing: border-box;
     padding: 0 1.7rem;
   }
+
+  .header__select{
+    padding: 0.89rem 0;
+    border-bottom: solid 0.05rem #E9E9E9;
+    max-height: max-content;
+  }
+
+  .header__top{
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .header__top_right{
+    display: none;
+  }
+
+  .header__link{
+    margin-top: 0.89rem;
+  }
 }
