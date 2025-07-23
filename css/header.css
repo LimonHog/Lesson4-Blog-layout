@@ -215,9 +215,19 @@
     align-items: center;
     padding: 0 0 1.6rem 1.67rem;
     border: solid 0.05rem #E9E9E9;
+    
   }
 
   .header__logo{
-    
+    width: 8.9rem;
+  }
+
+  .header__burger{
+    width: 1.27rem;
+    position: relative;
+    cursor: pointer;
+    height: 0.89rem;
+    display: flex;
+    align-items: center;
   }
 }
