@@ -230,4 +230,27 @@
     display: flex;
     align-items: center;
   }
+
+  .header__mobile-cross::before, .header__mobile-cross::after{
+    height: 0.18rem;
+    width: 100%;
+    background-color: black;
+    border-radius: 0.17rem;
+    position: absolute;
+    content: "";
+  }
+
+  .header__mobile-cross::before{
+    transform: rotate(45deg);
+  }
+
+  .header__mobile-cross{
+    transform: rotate(-45deg);
+  }
+
+  .header__close-btn{
+    position: relative;
+    width: 1.61rem;
+    margin-right: 1.76rem;
+  }
 }
