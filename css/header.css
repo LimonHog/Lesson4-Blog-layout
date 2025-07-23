@@ -207,6 +207,7 @@
     transition: 0.8s ease-in-out;
     z-index: 100;
     background-color: white;
+    left: -17.8rem;
   }
 
   .header__mobile-top{
@@ -252,5 +253,24 @@
     position: relative;
     width: 1.61rem;
     margin-right: 1.76rem;
+  }
+
+  .header__burger-menu, .header__burger-menu::after, .header__burger-menu::before{
+    width: 100%;
+    position: absolute;
+    height: 0.18rem;
+    background-color: black;
+    transition: 0.3s ease-in-out;
+    border-radius: 0.17rem;
+  }
+
+  .header__burger-menu::after{
+    content: "";
+    top: 0.341rem;
+  }
+
+  .header__burger-menu::before{
+    content: "";
+    bottom: 0.341rem;
   }
 }
