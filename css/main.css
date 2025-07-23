@@ -95,7 +95,7 @@
     margin: 0 5% 2rem 0;
   }
 
-  .main__card:nth-child{
+  .main__card:nth-child(nn){
     margin-right: 0;
   }
 }
