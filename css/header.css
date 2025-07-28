@@ -109,7 +109,7 @@
     padding-right: 0;
     justify-content: space-around;
   }
-  
+
   .header__top_right{
     display: block;
   }
@@ -225,7 +225,6 @@
     align-items: center;
     padding: 0 0 1.6rem 1.67rem;
     border: solid 0.05rem #E9E9E9;
-    
   }
 
   .header__logo{
